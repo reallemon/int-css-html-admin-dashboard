@@ -22,6 +22,9 @@
 
 .header {
   background: #eff6ff;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 1em;
 }
 
 .main {
@@ -53,4 +56,42 @@
   display: grid;
   margin-left: 1em;
   grid-template-columns: 1fr 4fr;
+}
+
+.header-nav,
+.header-control,
+.profile-area,
+.profile-greeting,
+.actions {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+input[type=search] {
+  background: #bfdbfe;
+  width: clamp(200px, 50vw, 700px);
+  border: none;
+  border-radius: 1em;
+}
+input[type=search]:focus-visible {
+  outline: 2px solid #2563eb;
+}
+
+.profile-area,
+.header-nav {
+  align-items: center;
+  gap: 1em;
+}
+
+.icon {
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
