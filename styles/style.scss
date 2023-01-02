@@ -1,1 +1,9 @@
 @use 'variables' as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $mainBackground;
+}
