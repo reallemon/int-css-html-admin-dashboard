@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
-body {
+.wrapper {
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  background: $sidebarBackground;
+  color: $textOnLight;
+  grid-row-end: span 2;
+}
+
+.header {
+  background: $basicallyWhite;
+}
+
+.main {
   background: $mainBackground;
 }
