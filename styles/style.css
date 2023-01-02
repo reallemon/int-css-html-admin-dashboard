@@ -130,6 +130,9 @@ button {
 button:last-of-type {
   margin-right: 2em;
 }
+button:hover {
+  background: #1d4ed8;
+}
 
 .main {
   display: grid;
@@ -235,4 +238,16 @@ button:last-of-type {
   font-weight: 700;
   font-size: 1.3rem;
   align-self: end;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #dbeafe;
+}
+.sidebar a .active {
+  background: #1d4ed8;
+  border-radius: 0.5em;
+}
+.sidebar a:hover p {
+  background: #60a5fa;
 }/*# sourceMappingURL=style.css.map */
