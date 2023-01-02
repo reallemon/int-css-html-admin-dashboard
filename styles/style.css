@@ -94,4 +94,39 @@ input[type=search]:focus-visible {
 
 .name {
   font-weight: 700;
+}
+
+small {
+  font-weight: 700;
+}
+
+.greeting {
+  width: clamp(150px, 30vw, 300px);
+}
+
+.greeting p {
+  font-weight: 700;
+}
+
+.header-control {
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+button {
+  background: #3b82f6;
+  color: #eff6ff;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.3em;
+  height: 3em;
+  padding: 0.8em 2em;
+}
+button:last-of-type {
+  margin-right: 2em;
 }/*# sourceMappingURL=style.css.map */
