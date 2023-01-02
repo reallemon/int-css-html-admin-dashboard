@@ -150,6 +150,22 @@ button:last-of-type {
 .project-card {
   background: #eff6ff;
   height: 20vh;
+  margin-left: 1em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr;
+  border-left: 0.6em solid #1e3a8a;
+  border-radius: 0.6em;
+}
+.project-card * {
+  margin-left: 1em;
+}
+
+.icons {
+  align-self: end;
+  justify-self: end;
+  display: flex;
+  gap: 1em;
+  margin: 1em;
 }
 
 .announcements {
@@ -195,4 +211,28 @@ button:last-of-type {
 
 .user-info * {
   margin: 0;
+}
+
+.trending::before {
+  content: "Trending";
+  background: #bfdbfe;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.projects::before {
+  content: "Your Projects";
+  background: #bfdbfe;
+  font-weight: 700;
+  font-size: 1.3rem;
+  grid-column-end: span 2;
+  align-self: end;
+}
+
+.announcements::before {
+  content: "Announcements";
+  background: #bfdbfe;
+  font-weight: 700;
+  font-size: 1.3rem;
+  align-self: end;
 }/*# sourceMappingURL=style.css.map */
