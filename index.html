@@ -10,12 +10,38 @@
       href="https://necolas.github.io/normalize.css/latest/normalize.css"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/4d903305a4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="wrapper">
-      <div class="sidebar">I am sidebar</div>
+      <div class="sidebar">
+        <div class="icon">
+          <i class="fas fa-table"></i>
+          Dashboard
+        </div>
+        <div class="nav">
+          <div class="profile-nav">
+            <p><i class="fas fa-home"></i> Home</p>
+            <p><i class="far fa-id-card"></i>Profile</p>
+            <p><i class="far fa-envelope"></i>Messages</p>
+            <p><i class="far fa-clock"></i>History</p>
+            <p><i class="far fa-file"></i>Tasks</p>
+            <p><i class="fas fa-people-arrows"></i>Communities</p>
+          </div>
+          <div class="config-nav">
+            <p><i class="fas fa-cog"></i>Settings</p>
+            <p><i class="far fa-question-circle"></i>Support</p>
+            <p><i class="fas fa-user-shield"></i>Privacy</p>
+          </div>
+        </div>
+      </div>
+
       <div class="header">This is header</div>
+
       <div class="main">Behold, main</div>
     </div>
   </body>
