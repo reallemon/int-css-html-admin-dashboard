@@ -180,11 +180,27 @@ button {
   border-bottom: 0.15em solid $theme_3;
 }
 
-.title {
+.title,
+.tag {
   font-weight: 700;
 }
 
 .summary {
   font-style: italic;
   font-weight: 100;
+}
+
+.trending {
+  display: grid;
+  background: $basicallyWhite;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
+
+.user-info * {
+  margin: 0;
 }
